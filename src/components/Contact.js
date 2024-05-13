@@ -65,7 +65,7 @@ export default function Contact() {
               </h2>
               <a href="tel:716-440-1087">
                 <p className="leading-relaxed" style={{ color: "#647C90" }}>
-                  716-440-1087
+                  (716) 440-1087
                 </p>
               </a>
             </div>
