@@ -31,3 +31,9 @@ body {
     text-wrap: balance;
   }
 }
+
+@media (max-width: 525px) {
+  .project-block {
+    width: 350px;
+  }
+}
