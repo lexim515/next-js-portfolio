@@ -32,7 +32,7 @@ export default function Contact() {
         <div className="rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
           <div
             className="relative flex flex-wrap py-6 rounded shadow-md "
-            style={{ width: "50vw" }}
+            style={{ width: "100vw" }}
           >
             <div className=" px-6">
               <h2
