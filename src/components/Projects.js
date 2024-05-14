@@ -31,7 +31,10 @@ export default function Projects() {
               target="_blank"
               style={{ margin: "auto" }}
             >
-              <div className="flex relative">
+              <div
+                className="flex relative"
+                style={{ width: "350px", margin: "auto" }}
+              >
                 <img
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-contain object-center"
