@@ -33,7 +33,7 @@ export default function Contact() {
           netlify
           name="contact"
           onSubmit={handleSubmit}
-          className="md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
+          className=" flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
         >
           <h2
             className="sm:text-4xl text-3xl mb-1 font-medium title-font"
@@ -58,7 +58,7 @@ export default function Contact() {
               id="name"
               name="name"
               className="w-full rounded border focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-              style={{ background: "#647C90", color: "#EEEDE7" }}
+              style={{ border: "1px solid #647C90", color: "#647C90" }}
               onChange={(e) => setName(e.target.value)}
             />
           </div>
@@ -75,7 +75,7 @@ export default function Contact() {
               id="email"
               name="email"
               className="w-full rounded border focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-              style={{ background: "#647C90", color: "#EEEDE7" }}
+              style={{ border: "1px solid #647C90", color: "#647C90" }}
               onChange={(e) => setEmail(e.target.value)}
             />
           </div>
@@ -91,7 +91,7 @@ export default function Contact() {
               id="message"
               name="message"
               className="w-full rounded border focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-              style={{ background: "#647C90", color: "#EEEDE7" }}
+              style={{ border: "1px solid #647C90", color: "#647C90" }}
               onChange={(e) => setMessage(e.target.value)}
             />
           </div>
