@@ -29,48 +29,6 @@ export default function Contact() {
   return (
     <section id="contact" className="relative">
       <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
-        <div className="rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
-          <div
-            className="relative flex flex-wrap py-6 rounded shadow-md "
-            style={{ width: "100vw" }}
-          >
-            <div className=" px-6">
-              <h2
-                className="title-font font-semibold tracking-widest text-xs"
-                style={{ color: "#647C90" }}
-              >
-                LOCATION
-              </h2>
-              <p className="mt-1" style={{ color: "#647C90" }}>
-                Cleveland, OH
-              </p>
-              <h2
-                className="title-font mt-4 font-semibold tracking-widest text-xs"
-                style={{ color: "#647C90" }}
-              >
-                EMAIL
-              </h2>
-              <a
-                href="mailto:lexim515@gmail.com"
-                className="leading-relaxed"
-                style={{ color: "#647C90" }}
-              >
-                lexim515@email.com
-              </a>
-              <h2
-                className="title-font font-semibold tracking-widest text-xs mt-4 "
-                style={{ color: "#647C90" }}
-              >
-                PHONE
-              </h2>
-              <a href="tel:716-440-1087">
-                <p className="leading-relaxed" style={{ color: "#647C90" }}>
-                  (716) 440-1087
-                </p>
-              </a>
-            </div>
-          </div>
-        </div>
         <form
           netlify
           name="contact"
@@ -145,6 +103,48 @@ export default function Contact() {
             Submit
           </button>
         </form>
+        <div className="rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+          <div
+            className="relative flex flex-wrap py-6 rounded shadow-md "
+            style={{ width: "100vw" }}
+          >
+            <div className=" px-6">
+              <h2
+                className="title-font font-semibold tracking-widest text-xs"
+                style={{ color: "#647C90" }}
+              >
+                LOCATION
+              </h2>
+              <p className="mt-1" style={{ color: "#647C90" }}>
+                Cleveland, OH
+              </p>
+              <h2
+                className="title-font mt-4 font-semibold tracking-widest text-xs"
+                style={{ color: "#647C90" }}
+              >
+                EMAIL
+              </h2>
+              <a
+                href="mailto:lexim515@gmail.com"
+                className="leading-relaxed"
+                style={{ color: "#647C90" }}
+              >
+                lexim515@email.com
+              </a>
+              <h2
+                className="title-font font-semibold tracking-widest text-xs mt-4 "
+                style={{ color: "#647C90" }}
+              >
+                PHONE
+              </h2>
+              <a href="tel:716-440-1087">
+                <p className="leading-relaxed" style={{ color: "#647C90" }}>
+                  (716) 440-1087
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
